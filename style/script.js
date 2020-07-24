@@ -113,7 +113,7 @@ const percentage = document.querySelector('.percentage');
 
 percentage.addEventListener('click', (event) => {
     currentNumber = ((parseFloat(prevNumber) * parseFloat(currentNumber))/100);
-    UpdateScreen(currentNumber);
+    updateScreen(currentNumber);
 })
 /*
 const inputPercentage = () => {
